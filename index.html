@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+
+<html lang="pt-BR"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Orbe Studio | Transformamos ideias em software</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    colors: {
+                        "primary": "#1152d4",
+                        "background-light": "#f6f6f8",
+                        "background-dark": "#101622",
+                    },
+                    fontFamily: {
+                        "display": ["Inter", "sans-serif"]
+                    },
+                    borderRadius: {
+                        "DEFAULT": "0.25rem",
+                        "lg": "0.5rem",
+                        "xl": "0.75rem",
+                        "full": "9999px"
+                    },
+                },
+            },
+        }
+    </script>
+<style>
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+        }
+    </style>
+</head>
+<body class="bg-background-light dark:bg-background-dark text-slate-900 dark:text-slate-100 antialiased">
+<!-- TopNavBar -->
+<header class="sticky top-0 z-50 w-full border-b border-slate-200 dark:border-slate-800 bg-background-light/80 dark:bg-background-dark/80 backdrop-blur-md">
+<div class="container mx-auto px-4 md:px-10 lg:px-20 py-4 flex items-center justify-between">
+<div class="flex items-center gap-2 text-primary">
+<span class="material-symbols-outlined text-3xl font-bold">orbit</span>
+<h2 class="text-slate-900 dark:text-slate-100 text-xl font-bold tracking-tight">Orbe Studio</h2>
+</div>
+<nav class="hidden md:flex items-center gap-8">
+<a class="text-slate-600 dark:text-slate-400 hover:text-primary transition-colors text-sm font-medium" href="#inicio">Início</a>
+<a class="text-slate-600 dark:text-slate-400 hover:text-primary transition-colors text-sm font-medium" href="#servicos">Serviços</a>
+<a class="text-slate-600 dark:text-slate-400 hover:text-primary transition-colors text-sm font-medium" href="#sobre">Sobre</a>
+<a class="text-slate-600 dark:text-slate-400 hover:text-primary transition-colors text-sm font-medium" href="#contato">Contato</a>
+</nav>
+<div class="flex items-center gap-4">
+<button class="bg-primary text-white px-6 py-2.5 rounded-lg text-sm font-bold tracking-wide hover:bg-primary/90 transition-all shadow-lg shadow-primary/20">
+                    Solicitar orçamento
+                </button>
+</div>
+</div>
+</header>
+<main>
+<!-- Hero Section -->
+<section class="relative overflow-hidden pt-16 pb-24 lg:pt-32 lg:pb-40" id="inicio">
+<div class="container mx-auto px-4 md:px-10 lg:px-20 grid lg:grid-cols-2 gap-12 items-center">
+<div class="flex flex-col gap-8">
+<div class="inline-flex items-center gap-2 bg-primary/10 text-primary px-3 py-1 rounded-full text-xs font-bold uppercase tracking-widest">
+<span class="relative flex h-2 w-2">
+<span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-primary opacity-75"></span>
+<span class="relative inline-flex rounded-full h-2 w-2 bg-primary"></span>
+</span>
+                        Inovação constante
+                    </div>
+<h1 class="text-5xl lg:text-7xl font-black text-slate-900 dark:text-white leading-[1.1] tracking-tight">
+                        Transformamos <span class="text-primary">ideias</span> em software
+                    </h1>
+<p class="text-lg lg:text-xl text-slate-600 dark:text-slate-400 max-w-xl leading-relaxed">
+                        Desenvolvemos soluções digitais de alta performance para impulsionar o seu negócio no mundo digital com tecnologia de ponta e design focado no usuário.
+                    </p>
+<div class="flex flex-wrap gap-4">
+<button class="bg-primary text-white px-8 py-4 rounded-lg text-base font-bold hover:bg-primary/90 transition-all shadow-xl shadow-primary/25">
+                            Conheça nossos serviços
+                        </button>
+<button class="border border-slate-200 dark:border-slate-800 bg-white dark:bg-slate-900 text-slate-900 dark:text-white px-8 py-4 rounded-lg text-base font-bold hover:bg-slate-50 dark:hover:bg-slate-800 transition-all">
+                            Ver Portfólio
+                        </button>
+</div>
+</div>
+<div class="relative">
+<div class="absolute -top-20 -right-20 w-64 h-64 bg-primary/20 rounded-full blur-3xl"></div>
+<div class="relative aspect-square w-full rounded-2xl overflow-hidden shadow-2xl border border-slate-200 dark:border-slate-800">
+<div class="absolute inset-0 bg-gradient-to-br from-primary/10 to-transparent"></div>
+<img alt="Software Development Interface" class="w-full h-full object-cover" data-alt="Modern coding environment with abstract digital elements" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAYjiQdZwV8H5W9D0iZjMpsjATIG_2GYucoQkurVwArwBsS6-llCsmTys_7dZH1H2McY2LnHujHXoPVvTMoUaxt9f3Yg5BJQ4PTrMcgL2MClZlrFIVXclkpslWudpLDif5FxbgS2kFxZp33ya_iQdxc4_yEygWerGTqpBU2-s8tY6-ZRajKGVT_1rhO_a0wi_mVzeJGbUl02LqxuYTij-VCwBuMC1Z3WSff6lfDxNt24WTM9nY7GpPtwUENqHCYvOMQ8kfGkp_X4_Lr"/>
+</div>
+</div>
+</div>
+</section>
+<!-- Services Section -->
+<section class="py-24 bg-white dark:bg-slate-900/50" id="servicos">
+<div class="container mx-auto px-4 md:px-10 lg:px-20">
+<div class="text-center mb-16">
+<h2 class="text-primary font-bold tracking-widest uppercase text-sm mb-4">Especialidades</h2>
+<h3 class="text-3xl lg:text-5xl font-black text-slate-900 dark:text-white mb-6">Soluções Especializadas</h3>
+<p class="text-slate-600 dark:text-slate-400 max-w-2xl mx-auto text-lg">
+                        Oferecemos um leque completo de serviços de software para atender às suas necessidades específicas e escalar seu negócio.
+                    </p>
+</div>
+<div class="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
+<!-- Web Development -->
+<div class="group p-8 rounded-2xl border border-slate-200 dark:border-slate-800 bg-background-light dark:bg-background-dark hover:border-primary transition-all duration-300">
+<div class="w-14 h-14 bg-primary/10 text-primary rounded-xl flex items-center justify-center mb-6 group-hover:bg-primary group-hover:text-white transition-colors">
+<span class="material-symbols-outlined text-3xl">desktop_windows</span>
+</div>
+<h4 class="text-xl font-bold text-slate-900 dark:text-white mb-3">Desenvolvimento Web</h4>
+<p class="text-slate-600 dark:text-slate-400 text-sm leading-relaxed">
+                            Sites responsivos, e-commerces e aplicações web escaláveis utilizando as tecnologias mais modernas do mercado.
+                        </p>
+</div>
+<!-- Mobile Apps -->
+<div class="group p-8 rounded-2xl border border-slate-200 dark:border-slate-800 bg-background-light dark:bg-background-dark hover:border-primary transition-all duration-300">
+<div class="w-14 h-14 bg-primary/10 text-primary rounded-xl flex items-center justify-center mb-6 group-hover:bg-primary group-hover:text-white transition-colors">
+<span class="material-symbols-outlined text-3xl">smartphone</span>
+</div>
+<h4 class="text-xl font-bold text-slate-900 dark:text-white mb-3">Aplicativos Mobile</h4>
+<p class="text-slate-600 dark:text-slate-400 text-sm leading-relaxed">
+                            Experiências nativas e híbridas para iOS e Android com foco em performance e usabilidade impecável.
+                        </p>
+</div>
+<!-- Custom Systems -->
+<div class="group p-8 rounded-2xl border border-slate-200 dark:border-slate-800 bg-background-light dark:bg-background-dark hover:border-primary transition-all duration-300">
+<div class="w-14 h-14 bg-primary/10 text-primary rounded-xl flex items-center justify-center mb-6 group-hover:bg-primary group-hover:text-white transition-colors">
+<span class="material-symbols-outlined text-3xl">memory</span>
+</div>
+<h4 class="text-xl font-bold text-slate-900 dark:text-white mb-3">Sistemas Personalizados</h4>
+<p class="text-slate-600 dark:text-slate-400 text-sm leading-relaxed">
+                            Softwares sob medida para a gestão e automação do seu negócio, integrando processos e gerando inteligência.
+                        </p>
+</div>
+<!-- Tech Consulting -->
+<div class="group p-8 rounded-2xl border border-slate-200 dark:border-slate-800 bg-background-light dark:bg-background-dark hover:border-primary transition-all duration-300">
+<div class="w-14 h-14 bg-primary/10 text-primary rounded-xl flex items-center justify-center mb-6 group-hover:bg-primary group-hover:text-white transition-colors">
+<span class="material-symbols-outlined text-3xl">lightbulb</span>
+</div>
+<h4 class="text-xl font-bold text-slate-900 dark:text-white mb-3">Consultoria em Tecnologia</h4>
+<p class="text-slate-600 dark:text-slate-400 text-sm leading-relaxed">
+                            Estratégia tecnológica para otimizar seus processos, reduzir custos e escolher a melhor stack para seu projeto.
+                        </p>
+</div>
+</div>
+</div>
+</section>
+<!-- About Section -->
+<section class="py-24 overflow-hidden" id="sobre">
+<div class="container mx-auto px-4 md:px-10 lg:px-20 grid lg:grid-cols-2 gap-16 items-center">
+<div class="relative order-2 lg:order-1">
+<div class="grid grid-cols-2 gap-4">
+<div class="space-y-4 pt-12">
+<img alt="Team meeting" class="rounded-2xl shadow-lg w-full aspect-[4/5] object-cover" data-alt="Team of developers working together in a modern office" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAcgjpP8dN7LRt0aXoZM6P_up0xvqUJZH22eoQHYAVzi-jyBwvoqxuIHJXMLk-CnejQ-sogXjkFsGHNNTZb40Zv5QgrpZlvWWrPtKJCNWoAWLxoeJV-7SnRsq3IwPG1feRpqSabbu6X1Lo-EySHN2PPX-bhxgZ28FYGRn_8RzL5UJs0Tg5x1WbqxAOyiM4dof6L0NJ_g-IAg5JAWhHTLLe0SeMglFiBf6zxfy7MXeOEk06pc-Pg9d1gPpoz2TejjJijpGCuVx08l1FI"/>
+<div class="bg-primary p-6 rounded-2xl text-white">
+<p class="text-4xl font-black mb-1">10+</p>
+<p class="text-sm font-medium opacity-80 uppercase tracking-wider">Anos de experiência</p>
+</div>
+</div>
+<div class="space-y-4">
+<div class="bg-slate-900 p-6 rounded-2xl text-white">
+<p class="text-4xl font-black mb-1">150+</p>
+<p class="text-sm font-medium opacity-80 uppercase tracking-wider">Projetos entregues</p>
+</div>
+<img alt="Development setup" class="rounded-2xl shadow-lg w-full aspect-[4/5] object-cover" data-alt="Software engineer workspace with multiple monitors" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAP3z6NnAxxK3Mz3wi0jwrTbBNOBPZYMvPXjZGTocrda4KjZSeYrEmXXYcWPuWbi-5YApgwKEMQ_uKBtIh5tL9bCm2ius3Btd6GVhFI6p6D90tm8Q2Wso2DEJgTrEFttQlxhzDNKsS63-TAtco-mwSglfay62YpPoaVpL24Hx5r9MTxpEkT8-NDplMn0-CCAhrXN4MruUGhH3irHHmvszARqTb3ScQjmgq9WDqzKjzKBNcb04ZorCbDDZANcaxX7HnoQ6OezSjOUJ2p"/>
+</div>
+</div>
+</div>
+<div class="flex flex-col gap-6 order-1 lg:order-2">
+<h2 class="text-primary font-bold tracking-widest uppercase text-sm">Sobre a Orbe Studio</h2>
+<h3 class="text-3xl lg:text-5xl font-black text-slate-900 dark:text-white leading-tight">Excelência técnica e inovação constante.</h3>
+<p class="text-lg text-slate-600 dark:text-slate-400 leading-relaxed">
+                        Nossa missão é transformar desafios complexos em soluções digitais simples e eficientes. Acreditamos que o software deve ser uma alavanca para o crescimento humano e empresarial.
+                    </p>
+<p class="text-lg text-slate-600 dark:text-slate-400 leading-relaxed">
+                        Combinamos experiência técnica profunda com uma visão consultiva, garantindo que cada linha de código contribua diretamente para os objetivos estratégicos de nossos clientes.
+                    </p>
+<div class="pt-4 border-t border-slate-200 dark:border-slate-800 grid grid-cols-2 gap-4">
+<div class="flex items-center gap-3">
+<span class="material-symbols-outlined text-primary">verified</span>
+<span class="font-bold text-slate-900 dark:text-white">Qualidade ISO</span>
+</div>
+<div class="flex items-center gap-3">
+<span class="material-symbols-outlined text-primary">groups</span>
+<span class="font-bold text-slate-900 dark:text-white">Time Sênior</span>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Differentials Section -->
+<section class="py-24 bg-primary/5">
+<div class="container mx-auto px-4 md:px-10 lg:px-20">
+<div class="grid md:grid-cols-3 gap-12">
+<div class="flex flex-col items-center text-center gap-4">
+<div class="w-20 h-20 bg-white dark:bg-slate-900 rounded-full flex items-center justify-center shadow-xl">
+<span class="material-symbols-outlined text-primary text-4xl">code</span>
+</div>
+<h4 class="text-xl font-bold text-slate-900 dark:text-white">Código de Qualidade</h4>
+<p class="text-slate-600 dark:text-slate-400">Padrões rigorosos de desenvolvimento para garantir sistemas seguros, estáveis e de fácil manutenção.</p>
+</div>
+<div class="flex flex-col items-center text-center gap-4">
+<div class="w-20 h-20 bg-white dark:bg-slate-900 rounded-full flex items-center justify-center shadow-xl">
+<span class="material-symbols-outlined text-primary text-4xl">bolt</span>
+</div>
+<h4 class="text-xl font-bold text-slate-900 dark:text-white">Entrega Rápida</h4>
+<p class="text-slate-600 dark:text-slate-400">Metodologias ágeis que permitem entregas incrementais e um time-to-market acelerado para sua ideia.</p>
+</div>
+<div class="flex flex-col items-center text-center gap-4">
+<div class="w-20 h-20 bg-white dark:bg-slate-900 rounded-full flex items-center justify-center shadow-xl">
+<span class="material-symbols-outlined text-primary text-4xl">support_agent</span>
+</div>
+<h4 class="text-xl font-bold text-slate-900 dark:text-white">Suporte Técnico</h4>
+<p class="text-slate-600 dark:text-slate-400">Acompanhamento contínuo pós-lançamento para garantir que sua aplicação esteja sempre operando em performance máxima.</p>
+</div>
+</div>
+</div>
+</section>
+<!-- Contact Section -->
+<section class="py-24" id="contato">
+<div class="container mx-auto px-4 md:px-10 lg:px-20">
+<div class="max-w-5xl mx-auto bg-white dark:bg-slate-900 rounded-3xl overflow-hidden shadow-2xl border border-slate-200 dark:border-slate-800 flex flex-col md:flex-row">
+<div class="md:w-2/5 bg-primary p-12 text-white flex flex-col justify-between">
+<div>
+<h3 class="text-3xl font-black mb-6">Vamos criar algo incrível juntos?</h3>
+<p class="text-primary/10 text-lg mb-8 leading-relaxed text-slate-100">
+                                Preencha o formulário e um de nossos especialistas entrará em contato em até 24 horas.
+                            </p>
+</div>
+<div class="space-y-6">
+<div class="flex items-center gap-4">
+<span class="material-symbols-outlined">mail</span>
+<span>contato@orbestudio.com</span>
+</div>
+<div class="flex items-center gap-4">
+<span class="material-symbols-outlined">call</span>
+<span>+55 (11) 9999-9999</span>
+</div>
+<div class="flex items-center gap-4">
+<span class="material-symbols-outlined">location_on</span>
+<span data-location="São Paulo">São Paulo, Brasil</span>
+</div>
+</div>
+</div>
+<div class="md:w-3/5 p-12">
+<form class="space-y-6">
+<div class="grid md:grid-cols-2 gap-6">
+<div class="space-y-2">
+<label class="text-sm font-bold text-slate-700 dark:text-slate-300">Nome</label>
+<input class="w-full bg-slate-50 dark:bg-slate-800 border-slate-200 dark:border-slate-700 rounded-lg p-3 focus:ring-2 focus:ring-primary focus:border-transparent outline-none text-slate-900 dark:text-white" placeholder="Seu nome completo" type="text"/>
+</div>
+<div class="space-y-2">
+<label class="text-sm font-bold text-slate-700 dark:text-slate-300">Email</label>
+<input class="w-full bg-slate-50 dark:bg-slate-800 border-slate-200 dark:border-slate-700 rounded-lg p-3 focus:ring-2 focus:ring-primary focus:border-transparent outline-none text-slate-900 dark:text-white" placeholder="email@empresa.com" type="email"/>
+</div>
+</div>
+<div class="space-y-2">
+<label class="text-sm font-bold text-slate-700 dark:text-slate-300">Mensagem</label>
+<textarea class="w-full bg-slate-50 dark:bg-slate-800 border-slate-200 dark:border-slate-700 rounded-lg p-3 focus:ring-2 focus:ring-primary focus:border-transparent outline-none text-slate-900 dark:text-white" placeholder="Como podemos ajudar o seu negócio?" rows="4"></textarea>
+</div>
+<button class="w-full bg-primary text-white py-4 rounded-lg font-bold hover:bg-primary/90 transition-all shadow-lg shadow-primary/20">
+                                Enviar Mensagem
+                            </button>
+</form>
+</div>
+</div>
+</div>
+</section>
+</main>
+<!-- Footer -->
+<footer class="bg-slate-900 text-white py-16 border-t border-slate-800">
+<div class="container mx-auto px-4 md:px-10 lg:px-20">
+<div class="grid md:grid-cols-4 gap-12 mb-12">
+<div class="col-span-1 md:col-span-1">
+<div class="flex items-center gap-2 text-primary mb-6">
+<span class="material-symbols-outlined text-3xl font-bold">orbit</span>
+<h2 class="text-white text-xl font-bold tracking-tight">Orbe Studio</h2>
+</div>
+<p class="text-slate-400 text-sm leading-relaxed mb-6">
+                        Especialistas em desenvolvimento de software de alta performance para empresas que buscam inovação e escala.
+                    </p>
+<div class="flex gap-4">
+<a class="w-10 h-10 rounded-full bg-slate-800 flex items-center justify-center hover:bg-primary transition-colors" href="#">
+<span class="material-symbols-outlined text-xl">share</span>
+</a>
+<a class="w-10 h-10 rounded-full bg-slate-800 flex items-center justify-center hover:bg-primary transition-colors" href="#">
+<span class="material-symbols-outlined text-xl">camera</span>
+</a>
+<a class="w-10 h-10 rounded-full bg-slate-800 flex items-center justify-center hover:bg-primary transition-colors" href="#">
+<span class="material-symbols-outlined text-xl">public</span>
+</a>
+</div>
+</div>
+<div class="col-span-1">
+<h5 class="font-bold text-lg mb-6">Empresa</h5>
+<ul class="space-y-4 text-slate-400 text-sm">
+<li><a class="hover:text-primary transition-colors" href="#inicio">Início</a></li>
+<li><a class="hover:text-primary transition-colors" href="#sobre">Sobre Nós</a></li>
+<li><a class="hover:text-primary transition-colors" href="#servicos">Serviços</a></li>
+<li><a class="hover:text-primary transition-colors" href="#">Blog Tech</a></li>
+</ul>
+</div>
+<div class="col-span-1">
+<h5 class="font-bold text-lg mb-6">Serviços</h5>
+<ul class="space-y-4 text-slate-400 text-sm">
+<li><a class="hover:text-primary transition-colors" href="#">Web Development</a></li>
+<li><a class="hover:text-primary transition-colors" href="#">Mobile Apps</a></li>
+<li><a class="hover:text-primary transition-colors" href="#">Cloud Solutions</a></li>
+<li><a class="hover:text-primary transition-colors" href="#">UI/UX Design</a></li>
+</ul>
+</div>
+<div class="col-span-1">
+<h5 class="font-bold text-lg mb-6">Legal</h5>
+<ul class="space-y-4 text-slate-400 text-sm">
+<li><a class="hover:text-primary transition-colors" href="#">Privacidade</a></li>
+<li><a class="hover:text-primary transition-colors" href="#">Termos de Uso</a></li>
+<li><a class="hover:text-primary transition-colors" href="#">Compliance</a></li>
+</ul>
+</div>
+</div>
+<div class="pt-8 border-t border-slate-800 flex flex-col md:row items-center justify-between gap-4 text-slate-500 text-xs">
+<p>© 2024 Orbe Studio Soluções Digitais Ltda. Todos os direitos reservados.</p>
+<div class="flex gap-8">
+<span>CNPJ: 00.000.000/0001-00</span>
+<span>Feito com <span class="text-red-500">♥</span> em São Paulo</span>
+</div>
+</div>
+</div>
+</footer>
+</body></html>
